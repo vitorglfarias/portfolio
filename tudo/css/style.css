@@ -371,7 +371,7 @@ body{
     }
 
     #sobre{
-        height: 85vw;
+        height: 108vw;
         width: 70vw;
     }
 
@@ -387,7 +387,7 @@ body{
     }
 
     #informacoes{
-        font-size: 3.3vw;
+        font-size: 4vw;
         margin: 4vw 5vw 1vw 5vw;
     }
 }
