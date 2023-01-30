@@ -260,7 +260,7 @@ body{
     }
     
     #sobre{
-        height: 54vw;
+        height: 56vw;
         width: 70vw;
     }
     
@@ -277,7 +277,7 @@ body{
 
     #informacoes{
         font-size: 2.5vw;
-        margin: 3vw 3vw 1vw 3vw;
+        margin: 3vw 5vw 1vw 5vw;
     }
 }
 
@@ -305,23 +305,23 @@ body{
 
 @media (max-width: 700px){
     header{
-        height: 11vw;
+        height: 13vw;
     }
 
     #icongithub{
-        width: 8vw;
+        width: 10vw;
         margin-top: 0.5vw;
     }
     
     .itemheader{
-        width: 20vw;
-        margin-top: 2.1vw;
-        font-size: 3.8vw;
+        width: 24vw;
+        margin-top: 2.7vw;
+        font-size: 4.5vw;
     }
 
     .iconheader{
         width: 5vw;
-        height: 3.5vw;
+        height: 4vw;
     }
 
     #sobre{
@@ -345,29 +345,29 @@ body{
 
     #informacoes{
         font-size: 3vw;
-        margin: 4vw 3vw 1vw 3vw;
+        margin: 4vw 5vw 1vw 5vw;
     }
 }
 
 @media (max-width: 550px){ 
     header{
-        height: 13vw;
+        height: 15vw;
     }
 
     #icongithub{
-        width: 10vw;
+        width: 12vw;
         margin-top: 0.5vw;
     }
     
     .itemheader{
-        width: 24vw;
+        width: 28vw;
         margin-top: 2.7vw;
-        font-size: 4.5vw;
+        font-size: 5.5vw;
     }
 
     .iconheader{
         width: 6vw;
-        height: 4.5vw;
+        height: 5.5vw;
     }
 
     #sobre{
@@ -400,29 +400,29 @@ body{
 
 @media (max-width: 450px){ 
     header{
-        height: 15vw;
+        height: 17vw;
     }
 
     #icongithub{
-        width: 11.5vw;
+        width: 13.5vw;
         margin-top: 0.7vw;
     }
     
     .itemheader{
         border-bottom: 0.45vw solid #1cac6b;
-        width: 26vw;
+        width: 30vw;
         margin-top: 3vw;
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     .iconheader{
         width: 7vw;
-        height: 4.5vw;
+        height: 6vw;
     }
 
     #sobre{
         margin-top: 12vw;
-        height: 93vw;
+        height: 112vw;
         width: 70vw;
     }
 
@@ -434,41 +434,14 @@ body{
 
     #informacoes{
         margin: 5vw 5vw 0 5vw;
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 }
 
 @media (max-width: 400px){
-    header{
-        height: 16vw;
-    }
-
-    #icongithub{
-        width: 12vw;
-        margin-top: 0.7vw;
-    }
-    
     .itemheader{
-        border-bottom: 0.45vw solid #1cac6b;
-        width: 30vw;
-        margin-top: 3vw;
-        font-size: 5.7vw;
-    }
-
-    .iconheader{
-        width: 8vw;
-        height: 5vw;
-    }
-
-    #sobre{
-        margin-top: 12vw;
-        height: 112vw;
-        width: 70vw;
-    }
-
-    #informacoes{
-        margin: 5vw 5vw 0 5vw;
-        font-size: 4vw;
+        width: 32vw;
+        margin-top: 3.5vw;
     }
 }
 
@@ -483,7 +456,7 @@ body{
     }
     
     .itemheader{
-        border-bottom: 0.45vw solid #1cac6b;
+        border-bottom: 0.5vw solid #1cac6b;
         width: 30vw;
         margin-top: 3vw;
         font-size: 6vw;
@@ -506,6 +479,13 @@ body{
     }
 }
 
+
+@media (max-width: 320px){
+    .itemheader{
+        border-bottom: 0.7vw solid #1cac6b;
+    }
+}
+
 @media (max-width: 300px){
     header{
         height: 18vw;
@@ -517,7 +497,7 @@ body{
     }
     
     .itemheader{
-        border-bottom: 0.45vw solid #1cac6b;
+        border-bottom: 0.7vw solid #1cac6b;
         width: 34vw;
         margin-top: 3.7vw;
         font-size: 7vw;
